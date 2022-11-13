@@ -1,0 +1,74 @@
+.playerStats{
+    position: absolute;
+    left: 28.65vh; /* (18.2% Right Side of Map) | (82.0% Right Side of Screen) | (2.7% Above Map)  */
+    bottom: 3.60vh; /* (1.85% Default-Fix for all 16:9 resolutions) | (21.0% Above Map) */
+}
+
+.status{
+    width: 250px;
+    float: left;
+    justify-content: space-between;
+    border-radius: 100%;
+}
+
+
+.hunger{
+    margin-top: 5px;
+    border: 0px solid rgba(0,0,0,1);
+    border-radius: 0px;
+    width: 3.675vh;
+    height: 3.675vh;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    rotate: z 9.43rad;
+    border-radius: 100%;
+}
+
+.hunger .bg{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    rotate: z 9.43rad;
+}
+
+.hunger img{
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#boxHunger {
+    background: linear-gradient(to top, black  0%, black  100%);
+	width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+#boxThirst {
+    background: linear-gradient(to top, black 0%, black 100%);
+	width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+#boxStamina {
+    background: linear-gradient(to top, black 0%, black 100%);
+	width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+#boxHealth {
+    background: linear-gradient(to top, black 0%, black 100%);
+	width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+body {
+    overflow: hidden;
+    height:1080px;
+    width:100%;
+}
